@@ -28,7 +28,7 @@ git clone https://github.com/timilehin2000/auth-api
 
 - Change Directory
 
-````bash
+```bash
 cd auth-api
 ```
 
@@ -46,7 +46,6 @@ cp .env.example .env
 
 - Modify `.env` file with your correct database credentials and other necessary variables
 
-
 - Run postgres with docker
 
 ```bash
@@ -54,7 +53,8 @@ docker-compose up -d
 ```
 
 - Run db migration
-```bash
+
+````bash
 npx prisma migrate dev
 npx prisma generate
 
@@ -64,11 +64,14 @@ To run this application, execute:
 
 ```bash
 npm run start:dev
-```
+````
 
 ```bash
 npm run test
 ```
 
 You should be able to access this application at `http://127.0.0.1:3000/graphql`. You can also access the API documentation at https://documenter.getpostman.com/view/36399546/2sAYkBrLKB
-````
+
+```
+
+```
