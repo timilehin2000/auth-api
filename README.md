@@ -54,9 +54,10 @@ docker-compose up -d
 
 - Run db migration
 
-````bash
+```bash
 npx prisma migrate dev
 npx prisma generate
+```
 
 ## Usage
 
@@ -64,7 +65,7 @@ To run this application, execute:
 
 ```bash
 npm run start:dev
-````
+```
 
 ```bash
 npm run test
