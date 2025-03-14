@@ -29,7 +29,8 @@ git clone https://github.com/timilehin2000/auth-api
 - Change Directory
 
 ````bash
-cd task_management
+cd auth-api
+```
 
 - Install all dependencies
 
